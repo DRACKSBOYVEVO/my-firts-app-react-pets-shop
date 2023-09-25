@@ -38,12 +38,25 @@
 }
 
 .menu-header-background {
-  background-color: #00000020;
+  background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
-  left: -100vw;
+  left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: 9;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s;
+}
+
+.menu-header--activo {
+  left: 0;
+}
+
+.menu-header-background--activo {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .menu-header {
