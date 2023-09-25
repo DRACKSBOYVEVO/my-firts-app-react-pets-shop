@@ -1,4 +1,4 @@
-import ListCategories from "../components/ListCategories"
+import ListCategories from "../pages/ListCategories"
 
 const Home = () => {
   return (

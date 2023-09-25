@@ -5,6 +5,8 @@ import Sobre from './pages/Sobre'
 import PageNotFound from './pages/PageNotFound'
 import Header from './components/Header';
 
+import Categoria from './pages/Categoria';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/sobre' element={<Sobre />} />
+
+        <Route path="/categoria/:id/*" element={<Categoria />} />
         <Route path='*' element = { <PageNotFound/> }/>
       </Routes>
     </Router>
