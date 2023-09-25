@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Sobre from './pages/Sobre'
 import PageNotFound from './pages/PageNotFound'
 import Header from './components/Header';
+import Post from './pages/Post';
 
 import Categoria from './pages/Categoria';
 
