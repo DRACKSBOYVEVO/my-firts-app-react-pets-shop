@@ -16,27 +16,28 @@ Para ejecutar la aplicación, sigue estos pasos:
    ```bash
    git clone https://github.com/alura-es-cursos/1845-react-router-v2.git my-firts-app-react-pets-shop
 
-Navega al directorio del proyecto:
-´
-cd my-firts-app-react-pets-shop
-´
+2. Navega al directorio del proyecto:
 
-Instala las dependencias utilizando npm:
-´
+```bash
+  cd my-firts-app-react-pets-shop
+```
+
+3. Instala las dependencias utilizando npm:
+```bash
 npm install
-´
+```
 
-Inicia el servidor local de la aplicación:
-´
+4. Inicia el servidor local de la aplicación:
+```bash
 npm start
-´
-Además, para ejecutar el servidor JSON (json-server), abre otra terminal y navega al directorio del proyecto nuevamente y ejecuta el siguiente comando:
-´
+```
+5. Además, para ejecutar el servidor JSON (json-server), abre otra terminal y navega al directorio del proyecto nuevamente y ejecuta el siguiente comando:
+```bash
 json-server --watch ./db.json --port=5000
-´
+```
+
 Esto iniciará el servidor JSON que proporciona datos para la aplicación.
 
 La aplicación estará disponible en tu navegador en la dirección http://localhost:3000.
 
 ¡Disfruta explorando la aplicación! Si tienes alguna pregunta o problema, consulta el repositorio original para obtener más información.
-
